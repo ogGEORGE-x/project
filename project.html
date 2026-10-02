@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>George Njoroge | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <script src="contact.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-content">
+            <a class="site-name" href="index.html">George Njoroge</a>
+            <nav aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero container" aria-labelledby="hero-title">
+            <div class="hero-text">
+                <p class="eyebrow">Hello, I am</p>
+                <h1 id="hero-title">George Njoroge</h1>
+                <p class="tagline">Web Developer &amp; IT Student</p>
+                <p>I design and build simple, responsive digital experiences that make information easier to use and understand.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#projects">View Projects</a>
+                    <a class="button button-secondary" href="#contact">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/me.jpeg" alt="Professional headshot of George Njoroge">
+            </div>
+        </section>
+
+        <section class="section container" id="about" aria-labelledby="about-title">
+            <p class="eyebrow">A little about me</p>
+            <h2 id="about-title">About Me</h2>
+            <div class="about-content">
+                <p>I am an IT student focused on front-end development, problem solving, and creating user-friendly interfaces. Through practical work, I have been improving my skills in HTML, CSS, JavaScript, Java, and Python while building projects that help me learn by doing.</p>
+            </div>
+        </section>
+
+        <section class="section container" id="projects" aria-labelledby="projects-title">
+            <p class="eyebrow">What I have built</p>
+            <h2 id="projects-title">Projects</h2>
+            <div class="project-grid">
+                <article class="project-card">
+                    <span class="project-tag">Portfolio Website</span>
+                    <h3>Personal Portfolio</h3>
+                    <p>I created a clean portfolio website to present my work, background, and contact details in a clear and modern layout.</p>
+                </article>
+                <article class="project-card">
+                    <span class="project-tag">Landing Page</span>
+                    <h3>Business Landing Page</h3>
+                    <p>A responsive layout designed to showcase products and services with strong readability and effective call-to-action sections.</p>
+                </article>
+                <article class="project-card">
+                    <span class="project-tag">Practice Project</span>
+                    <h3>UI &amp; App Concept</h3>
+                    <p>I explored interface design and layout ideas through mockups and small web exercises that improve user experience and workflow.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section section-muted" id="services" aria-labelledby="services-title">
+            <div class="container">
+                <p class="eyebrow">How I can help</p>
+                <h2 id="services-title">Services</h2>
+                <div class="service-grid">
+                    <article class="service-card">
+                        <h3>Web Design</h3>
+                        <p>Creating simple, polished, and user-friendly layouts for personal brands and business sites.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3>Front-End Development</h3>
+                        <p>Building responsive websites using HTML, CSS, and JavaScript with clean structure and navigation.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3>Responsive Layouts</h3>
+                        <p>Designing pages that adapt smoothly across desktop, tablet, and mobile screen sizes.</p>
+                    </article>
+                    <article class="service-card">
+                        <h3>Website Improvements</h3>
+                        <p>Improving clarity, styling, and functionality so websites feel more engaging and easier to use.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section container" id="skills" aria-labelledby="skills-title">
+            <p class="eyebrow">What I know</p>
+            <h2 id="skills-title">My Skills</h2>
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>Front-End</h3>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Programming</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>Problem Solving</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Design</h3>
+                    <ul>
+                        <li>Responsive Design</li>
+                        <li>UI Basics</li>
+                        <li>Accessibility</li>
+                    </ul>
+                </article>
+                <article class="skill-card">
+                    <h3>Tools</h3>
+                    <ul>
+                        <li>Git &amp; GitHub</li>
+                        <li>VS Code</li>
+                        <li>Debugging</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+            <main class="container contact-page">
+        <section class="contact-intro" aria-labelledby="contact-title">
+            <p class="eyebrow">Get in touch</p>
+            <h1 id="contact-title">Let's talk about your project.</h1>
+            <p>Have a question or an idea? Send me a note and I'll get back to you.</p>
+            <a class="contact-email" href="mailto:georgenjoro@example.com">georgenjoro@example.com</a>
+        </section>
+
+        <form class="contact-form" id="contact-form">
+            <div class="form-row">
+                <div class="form-field">
+                    <label for="name">Your name</label>
+                    <input id="name" name="name" type="text" autocomplete="name" required>
+                </div>
+                <div class="form-field">
+                    <label for="email">Email address</label>
+                    <input id="email" name="email" type="email" autocomplete="email" required>
+                </div>
+            </div>
+            <div class="form-field">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-actions">
+                <button class="button button-primary" type="submit">Open email</button>
+                <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+            </div>
+        </form>
+    
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 George Njoroge</p>
+        </div>
+    </footer>
+</body>
+</html>
