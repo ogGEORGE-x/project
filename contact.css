@@ -66,6 +66,10 @@
     resize: vertical;
 }
 
+.form-field-full {
+    grid-column: 1 / -1;
+}
+
 .form-field input:focus-visible,
 .form-field textarea:focus-visible,
 .contact-form button:focus-visible,

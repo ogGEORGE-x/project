@@ -222,12 +222,47 @@ h2 {
     margin-bottom: 12px;
 }
 
+.api-status {
+    margin-top: 18px;
+    color: var(--muted);
+    min-height: 1.5em;
+}
+
 .project-card h3,
 .service-card h3,
 .skill-card h3,
 .contact-card h3 {
     color: var(--dark);
     margin-bottom: 10px;
+}
+
+.project-card a {
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.repo-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 12px 0;
+}
+
+.repo-meta span {
+    display: inline-block;
+    background: #f9f1e6;
+    border: 2px solid var(--line);
+    border-radius: 999px;
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    font-weight: bold;
+}
+
+.project-card p {
+    margin-bottom: 0;
 }
 
 .service-card {
